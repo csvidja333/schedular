@@ -42,7 +42,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		    <div class="navbar-brand">
 			<?php 
 		    
-		    echo $this->Html->link($this->Html->image('schedlogo64.png', array('height'=>'50','width' => '25', 'alt' => '')) ,'index.html',array('escape' => false));
+		    echo $this->Html->link($this->Html->image('schedlogo64.png', array('height'=>'25','width' => '25', 'alt' => '')) ,'index.html',array('escape' => false));
 		    ?>
 <!--			<a href="index.html">
 			    <img src="img/logo@2x.png" width="88" alt="" />
